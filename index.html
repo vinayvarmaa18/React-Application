@@ -8,15 +8,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx">
-    // This script redirects all requests to index.html (React handles the routing)
-    var pathSegmentsToKeep = 1;
-    var l = window.location;
-    l.replace(
-      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-      l.pathname.split('/').slice(0, pathSegmentsToKeep + 1).join('/') +
-      '/?/' + l.pathname.slice(1)
-    );
-    </script>
+    <script type="module" src="/src/main.jsx"> </script>
   </body>
 </html>
