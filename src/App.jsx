@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import HeaderComponent from './HeaderComponent'
 import FooterComponent from './FooterComponent';
 import Employees from './Employees';
@@ -13,7 +13,6 @@ function App() {
   return (
     <>
     <div className='text-3xl'>
-    <BrowserRouter>
     <HeaderComponent/>
       <Routes>
         <Route path="/home" element={<Home />} />
@@ -25,7 +24,6 @@ function App() {
         <Route path="/" element={<Home />} />
       </Routes>
       {/* <FooterComponent/> */}
-    </BrowserRouter>
     </div>
     </>
   )
