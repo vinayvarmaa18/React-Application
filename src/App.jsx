@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <div className='text-3xl'>
-    <BrowserRouter basename="/React-frontend-Application/">
+    <BrowserRouter>
     <HeaderComponent/>
       <Routes>
         <Route path="/home" element={<Home />} />
