@@ -2,7 +2,7 @@
   "name": "react-application",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vinayvarmaa18.github.io/React-frontend-Application/",
+  "homepage": "https://vinayvarmaa18.github.io/React-Application/",
   "type": "module",
   "scripts": {
     "dev": "vite",
